@@ -1,0 +1,837 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafe Tesu — Coffee & Eatery</title>
+    <meta name="description"
+        content="A space for slow mornings and meaningful moments. Experience premium coffee, calm luxury brunch, and a cozy aesthetic atmosphere at Cafe Tesu.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS Stylesheet -->
+    <link rel="stylesheet" href="style.css?v=1.1">
+</head>
+
+<body>
+    <!-- Navigation Bar -->
+    <header class="navbar-header" id="main-header">
+        <div class="navbar-container">
+            <a href="#" class="logo-link" id="logo">
+                <span class="logo-text">Cafe Tesu</span>
+            </a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="mobile-nav-toggle" aria-label="Toggle Navigation Menu" aria-expanded="false"
+                id="mobile-toggle">
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+                <span class="hamburger-bar"></span>
+            </button>
+
+            <!-- Navigation Links -->
+            <nav class="nav-menu" id="nav-menu">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#menu" class="nav-link">Menu</a></li>
+                    <li class="nav-item"><a href="#gallery" class="nav-link">Gallery</a></li>
+                    <li class="nav-item"><a href="#visit" class="nav-link">Visit</a></li>
+                </ul>
+            </nav>
+
+            <!-- Navigation Action -->
+            <div class="nav-actions" id="nav-actions">
+                <a href="#book" class="btn btn-primary btn-book-table" id="cta-book">Book Table</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <main>
+        <section class="hero-section hero" id="hero">
+            <!-- Ken Burns Background Container -->
+            <div class="hero-bg-wrapper">
+                <img src="assets/images/hero_bg.png" alt="Cafe Tesu Interior">
+                <div class="hero-overlay"></div>
+            </div>
+
+            <!-- Hero Content -->
+            <div class="hero-container">
+                <div class="hero-content">
+                    <span class="hero-subtitle fade-in-up">Welcome to Cafe Tesu</span>
+                    <h1 class="hero-title fade-in-up delay-1">Cafe Tesu – Coffee & Eatery</h1>
+                    <p class="hero-tagline fade-in-up delay-2">A space for slow mornings and meaningful moments</p>
+                    <div class="hero-cta-wrapper fade-in-up delay-3">
+                        <a href="#menu" class="btn btn-secondary btn-explore-menu cta-btn" id="cta-explore">Explore
+                            Menu</a>
+                    </div>
+                </div>
+            </div>
+
+
+        </section>
+
+        <!-- Experience Section -->
+        <section class="experience-section" id="experience">
+            <div class="experience-container">
+                <!-- Left Side: Text Content -->
+                <div class="experience-content scroll-reveal">
+                    <span class="experience-label">Our Story</span>
+                    <h2 class="experience-title">Designed for slow mornings and meaningful moments</h2>
+                    <p class="experience-paragraph">
+                        Cafe Tesu is born from a desire to celebrate the quiet, slow rhythms of life. Tucked behind our
+                        signature mint green facade, you'll discover a sanctuary crafted for calm brunch culture and
+                        warm connection. Every detail of our cozy, sun-lit interiors, handcrafted dishes, and
+                        single-origin brews invites you to slow down, breathe, and savor the present.
+                    </p>
+                </div>
+
+                <!-- Right Side: Image Composition -->
+                <div class="experience-image-container scroll-reveal delay-2">
+                    <div class="experience-image-wrapper">
+                        <img src="assets/images/cafe_exterior.png" alt="Cafe Tesu Mint Green Exterior"
+                            class="experience-image">
+                        <div class="experience-brand-overlay">Cafe Tesu</div>
+                        <div class="experience-image-accent"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Signature Dishes Section -->
+        <section class="signature-section" id="signature-dishes">
+            <div class="signature-container">
+                <div class="signature-header scroll-reveal">
+                    <span class="signature-label">Signature Dishes</span>
+                    <h2 class="signature-title">Crafted with care, served with elegance</h2>
+                </div>
+
+                <div class="signature-grid">
+                    <!-- Card 1 -->
+                    <div class="dish-card-wrapper scroll-reveal">
+                        <div class="dish-card">
+                            <div class="dish-image-wrapper">
+                                <span class="dish-tag tag-mint">Chef's Pick</span>
+                                <img src="assets/images/eggs_benedict.png" alt="Eggs Benedict" class="dish-image">
+                            </div>
+                            <div class="dish-info">
+                                <h3 class="dish-title">Eggs Benedict</h3>
+                                <p class="dish-description">Poached eggs on toasted artisanal sourdough with rich
+                                    hollandaise sauce.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="dish-card-wrapper scroll-reveal">
+                        <div class="dish-card">
+                            <div class="dish-image-wrapper">
+                                <span class="dish-tag tag-beige">Popular</span>
+                                <img src="assets/images/berry_waffles.png" alt="Warm Berry Waffles" class="dish-image">
+                            </div>
+                            <div class="dish-info">
+                                <h3 class="dish-title">Warm Berry Waffles</h3>
+                                <p class="dish-description">Golden waffles topped with fresh organic berries and pure
+                                    maple syrup.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="dish-card-wrapper scroll-reveal">
+                        <div class="dish-card">
+                            <div class="dish-image-wrapper">
+                                <span class="dish-tag tag-beige">Popular</span>
+                                <img src="assets/images/artisanal_pizza.png" alt="Artisanal Pizza" class="dish-image">
+                            </div>
+                            <div class="dish-info">
+                                <h3 class="dish-title">Artisanal Pizza</h3>
+                                <p class="dish-description">Rustic sourdough crust topped with fresh mozzarella, sweet
+                                    tomatoes, and basil.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="dish-card-wrapper scroll-reveal">
+                        <div class="dish-card">
+                            <div class="dish-image-wrapper">
+                                <span class="dish-tag tag-mint">Chef's Pick</span>
+                                <img src="assets/images/special_sushi.png" alt="Chef's Special Sushi"
+                                    class="dish-image">
+                            </div>
+                            <div class="dish-info">
+                                <h3 class="dish-title">Chef's Special Sushi</h3>
+                                <p class="dish-description">A selection of hand-rolled sushi, fresh sashimi, and
+                                    microgreens.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Menu Section -->
+        <section class="menu-section" id="menu">
+            <div class="menu-container">
+                <div class="menu-header scroll-reveal">
+                    <span class="menu-label">Menu</span>
+                    <h2 class="menu-title">Explore our curated offerings</h2>
+                </div>
+
+                <!-- Horizontal Tabs Container -->
+                <div class="menu-tabs-wrapper scroll-reveal delay-1">
+                    <div class="menu-tabs">
+                        <button class="menu-tab-btn active" data-tab="breakfast">Breakfast</button>
+                        <button class="menu-tab-btn" data-tab="coffee">Coffee</button>
+                        <button class="menu-tab-btn" data-tab="desserts">Desserts</button>
+                        <button class="menu-tab-btn" data-tab="asian-sushi">Asian / Sushi</button>
+                    </div>
+                </div>
+
+                <!-- Menu Content Panes -->
+                <div class="menu-content-wrapper scroll-reveal delay-2">
+                    <!-- Breakfast Pane -->
+                    <div class="menu-pane active show" id="breakfast">
+                        <div class="menu-grid">
+                            <!-- Item 1 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_avocado_toast.png" alt="Avocado Sourdough Toast"
+                                        class="menu-item-thumb thumb-zoom-center">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Avocado Sourdough Toast</h3>
+                                            <span class="menu-item-tag tag-mint">Chef's Special</span>
+                                        </div>
+                                        <span class="menu-item-price">$14</span>
+                                    </div>
+                                    <p class="menu-item-desc">Fresh avocado mash, poached eggs, feta cheese, and
+                                        microgreens on toasted artisanal sourdough.</p>
+                                </div>
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_french_toast.png" alt="Classic French Toast"
+                                        class="menu-item-thumb thumb-zoom-right">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Classic French Toast</h3>
+                                        </div>
+                                        <span class="menu-item-price">$12</span>
+                                    </div>
+                                    <p class="menu-item-desc">Thick-cut brioche bread soaked in vanilla custard, served
+                                        with fresh berries and maple syrup.</p>
+                                </div>
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_salmon_bagel.png" alt="Smoked Salmon Bagel"
+                                        class="menu-item-thumb">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Smoked Salmon Bagel</h3>
+                                            <span class="menu-item-tag tag-beige">Popular</span>
+                                        </div>
+                                        <span class="menu-item-price">$15</span>
+                                    </div>
+                                    <p class="menu-item-desc">Toasted bagel layered with premium smoked salmon, cream
+                                        cheese, capers, and red onions.</p>
+                                </div>
+                            </div>
+                            <!-- Item 4 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_croissant.png" alt="Breakfast Croissant"
+                                        class="menu-item-thumb">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Breakfast Croissant</h3>
+                                        </div>
+                                        <span class="menu-item-price">$11</span>
+                                    </div>
+                                    <p class="menu-item-desc">Warm flaky croissant stuffed with soft scrambled eggs,
+                                        aged white cheddar, and crispy bacon.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Coffee Pane -->
+                    <div class="menu-pane" id="coffee">
+                        <div class="menu-grid">
+                            <!-- Item 1 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_espresso.png" alt="Single-Origin Espresso"
+                                        class="menu-item-thumb">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Single-Origin Espresso</h3>
+                                        </div>
+                                        <span class="menu-item-price">$4.5</span>
+                                    </div>
+                                    <p class="menu-item-desc">A double shot of our meticulously sourced, light-roast
+                                        single-origin seasonal espresso beans.</p>
+                                </div>
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_flat_white.png" alt="Flat White"
+                                        class="menu-item-thumb">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Flat White</h3>
+                                            <span class="menu-item-tag tag-beige">Popular</span>
+                                        </div>
+                                        <span class="menu-item-price">$5.5</span>
+                                    </div>
+                                    <p class="menu-item-desc">Double espresso shot poured over with smooth,
+                                        velvet-textured hot milk microfoam.</p>
+                                </div>
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_iced_latte.png" alt="Iced Spanish Latte"
+                                        class="menu-item-thumb">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Iced Spanish Latte</h3>
+                                            <span class="menu-item-tag tag-mint">Chef's Special</span>
+                                        </div>
+                                        <span class="menu-item-price">$6.5</span>
+                                    </div>
+                                    <p class="menu-item-desc">Espresso blended with condensed milk and chilled whole
+                                        milk over crystal-clear ice.</p>
+                                </div>
+                            </div>
+                            <!-- Item 4 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_pour_over.png" alt="V60 Pour Over"
+                                        class="menu-item-thumb">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">V60 Pour Over</h3>
+                                        </div>
+                                        <span class="menu-item-price">$6.0</span>
+                                    </div>
+                                    <p class="menu-item-desc">Hand-brewed single-origin pour over highlighting delicate
+                                        tasting notes and clean finish.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Desserts Pane -->
+                    <div class="menu-pane" id="desserts">
+                        <div class="menu-grid">
+                            <!-- Item 1 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_waffles.png" alt="Warm Berry Waffles"
+                                        class="menu-item-thumb">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Warm Berry Waffles</h3>
+                                            <span class="menu-item-tag tag-beige">Popular</span>
+                                        </div>
+                                        <span class="menu-item-price">$12</span>
+                                    </div>
+                                    <p class="menu-item-desc">Golden waffles topped with warm wild berry compote,
+                                        vanilla ice cream, and maple syrup.</p>
+                                </div>
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_tiramisu.png" alt="Tiramisu"
+                                        class="menu-item-thumb thumb-warm-contrast">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Tiramisu</h3>
+                                            <span class="menu-item-tag tag-mint">Chef's Special</span>
+                                        </div>
+                                        <span class="menu-item-price">$9</span>
+                                    </div>
+                                    <p class="menu-item-desc">House-made classic with espresso-soaked ladyfingers,
+                                        velvety mascarpone cream, and cocoa powder.</p>
+                                </div>
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_matcha_cake.png" alt="Matcha Crepe Cake"
+                                        class="menu-item-thumb thumb-hue-green">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Matcha Crepe Cake</h3>
+                                        </div>
+                                        <span class="menu-item-price">$10</span>
+                                    </div>
+                                    <p class="menu-item-desc">Matcha crepe layers separated by delicate ceremonial
+                                        matcha-infused light whipped cream.</p>
+                                </div>
+                            </div>
+                            <!-- Item 4 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_cheesecake.png" alt="Basque Burnt Cheesecake"
+                                        class="menu-item-thumb thumb-bright-pop">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Basque Burnt Cheesecake</h3>
+                                        </div>
+                                        <span class="menu-item-price">$8.5</span>
+                                    </div>
+                                    <p class="menu-item-desc">Rich and creamy baked cheesecake with a caramelized, dark
+                                        exterior and soft, molten interior.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Asian / Sushi Pane -->
+                    <div class="menu-pane" id="asian-sushi">
+                        <div class="menu-grid">
+                            <!-- Item 1 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_sushi_platter.png" alt="Chef's Special Sushi Platter"
+                                        class="menu-item-thumb">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Chef's Special Sushi Platter</h3>
+                                            <span class="menu-item-tag tag-mint">Chef's Special</span>
+                                        </div>
+                                        <span class="menu-item-price">$28</span>
+                                    </div>
+                                    <p class="menu-item-desc">Premium assortment of fresh chef's selection nigiri, maki
+                                        rolls, and sashimi slices.</p>
+                                </div>
+                            </div>
+                            <!-- Item 2 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_tuna_roll.png" alt="Spicy Tuna Roll"
+                                        class="menu-item-thumb thumb-saturated">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Spicy Tuna Roll</h3>
+                                            <span class="menu-item-tag tag-beige">Popular</span>
+                                        </div>
+                                        <span class="menu-item-price">$16</span>
+                                    </div>
+                                    <p class="menu-item-desc">Fresh minced ahi tuna, crisp cucumber, and green onion,
+                                        tossed in spicy sriracha mayo.</p>
+                                </div>
+                            </div>
+                            <!-- Item 3 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_edamame.png" alt="Truffle Edamame"
+                                        class="menu-item-thumb thumb-rich-green">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Truffle Edamame</h3>
+                                        </div>
+                                        <span class="menu-item-price">$9</span>
+                                    </div>
+                                    <p class="menu-item-desc">Steamed edamame pods tossed in premium white truffle oil
+                                        and coarse grey sea salt flakes.</p>
+                                </div>
+                            </div>
+                            <!-- Item 4 -->
+                            <div class="menu-item">
+                                <div class="menu-item-thumb-wrapper">
+                                    <img src="assets/images/menu_salmon_sashimi.png" alt="Salmon Sashimi"
+                                        class="menu-item-thumb thumb-warm-tint">
+                                </div>
+                                <div class="menu-item-content">
+                                    <div class="menu-item-top">
+                                        <div class="menu-item-title-group">
+                                            <h3 class="menu-item-name">Salmon Sashimi</h3>
+                                        </div>
+                                        <span class="menu-item-price">$18</span>
+                                    </div>
+                                    <p class="menu-item-desc">Five delicate, thick-cut slices of premium fresh Atlantic
+                                        salmon, served with ginger and fresh wasabi.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scroll Storytelling Section -->
+        <section class="story-section" id="storytelling">
+            <div class="story-container">
+                <!-- Scene 1: Morning Coffee -->
+                <div class="story-slide active" data-scene="0">
+                    <div class="story-bg" style="background-image: url('assets/images/thumb_coffee.png');"></div>
+                    <div class="story-overlay"></div>
+                    <div class="story-content">
+                        <span class="story-time">08:00 AM</span>
+                        <h2 class="story-title">Slow mornings begin here</h2>
+                    </div>
+                </div>
+
+                <!-- Scene 2: Breakfast Moments -->
+                <div class="story-slide" data-scene="1">
+                    <div class="story-bg" style="background-image: url('assets/images/eggs_benedict.png');"></div>
+                    <div class="story-overlay"></div>
+                    <div class="story-content">
+                        <span class="story-time">11:00 AM</span>
+                        <h2 class="story-title">Crafted plates, warm conversations</h2>
+                    </div>
+                </div>
+
+                <!-- Scene 3: Cozy Interior Vibes -->
+                <div class="story-slide" data-scene="2">
+                    <div class="story-bg" style="background-image: url('assets/images/cafe_exterior.png');"></div>
+                    <div class="story-overlay"></div>
+                    <div class="story-content">
+                        <span class="story-time">03:00 PM</span>
+                        <h2 class="story-title">A space to pause and breathe</h2>
+                    </div>
+                </div>
+
+                <!-- Scene 4: Evening Ambience -->
+                <div class="story-slide" data-scene="3">
+                    <div class="story-bg" style="background-image: url('assets/images/hero_bg.png');"></div>
+                    <div class="story-overlay"></div>
+                    <div class="story-content">
+                        <span class="story-time">07:00 PM</span>
+                        <h2 class="story-title">Evenings wrapped in soft light</h2>
+                    </div>
+                </div>
+
+                <!-- Scroll progress indicator dots on the side -->
+                <div class="story-dots">
+                    <div class="story-dot active" data-slide="0"></div>
+                    <div class="story-dot" data-slide="1"></div>
+                    <div class="story-dot" data-slide="2"></div>
+                    <div class="story-dot" data-slide="3"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section class="gallery-section" id="gallery">
+            <div class="gallery-container">
+                <div class="gallery-header scroll-reveal">
+                    <span class="gallery-label">Gallery</span>
+                    <h2 class="gallery-title">Moments at Cafe Tesu</h2>
+                </div>
+
+                <div class="gallery-grid">
+                    <!-- Gallery Item 1 (Exterior) -->
+                    <div class="gallery-item scroll-reveal" data-src="assets/images/cafe_exterior.png">
+                        <img src="assets/images/cafe_exterior.png" alt="Cafe Tesu Mint Green Exterior"
+                            class="gallery-img">
+                    </div>
+
+                    <!-- Gallery Item 2 (Eggs Benedict) -->
+                    <div class="gallery-item scroll-reveal" data-src="assets/images/eggs_benedict.png">
+                        <img src="assets/images/eggs_benedict.png" alt="Eggs Benedict Breakfast" class="gallery-img">
+                    </div>
+
+                    <!-- Gallery Item 3 (Pour Over Coffee) -->
+                    <div class="gallery-item scroll-reveal" data-src="assets/images/menu_pour_over.png">
+                        <img src="assets/images/menu_pour_over.png" alt="V60 Coffee Pour Over" class="gallery-img">
+                    </div>
+
+                    <!-- Gallery Item 4 (French Toast) -->
+                    <div class="gallery-item scroll-reveal" data-src="assets/images/menu_french_toast.png">
+                        <img src="assets/images/menu_french_toast.png" alt="Classic French Toast Brunch"
+                            class="gallery-img">
+                    </div>
+
+                    <!-- Gallery Item 5 (Interior Ambience) -->
+                    <div class="gallery-item scroll-reveal" data-src="assets/images/hero_bg.png">
+                        <img src="assets/images/hero_bg.png" alt="Cozy Cafe Interior Vibes" class="gallery-img">
+                    </div>
+
+                    <!-- Gallery Item 6 (Warm Berry Waffles) -->
+                    <div class="gallery-item scroll-reveal" data-src="assets/images/berry_waffles.png">
+                        <img src="assets/images/berry_waffles.png" alt="Warm Berry Waffles Dessert" class="gallery-img">
+                    </div>
+
+                    <!-- Gallery Item 7 (Matcha Crepe Cake) -->
+                    <div class="gallery-item scroll-reveal" data-src="assets/images/menu_matcha_cake.png">
+                        <img src="assets/images/menu_matcha_cake.png" alt="Matcha Crepe Cake" class="gallery-img">
+                    </div>
+
+                    <!-- Gallery Item 8 (Artisanal Sourdough Pizza) -->
+                    <div class="gallery-item scroll-reveal" data-src="assets/images/artisanal_pizza.png">
+                        <img src="assets/images/artisanal_pizza.png" alt="Artisanal Sourdough Pizza"
+                            class="gallery-img">
+                    </div>
+
+                    <!-- Gallery Item 9 (Iced Spanish Latte) -->
+                    <div class="gallery-item scroll-reveal" data-src="assets/images/menu_iced_latte.png">
+                        <img src="assets/images/menu_iced_latte.png" alt="Iced Latte Coffee" class="gallery-img">
+                    </div>
+
+                    <!-- Gallery Item 10 (Avocado Toast) -->
+                    <div class="gallery-item scroll-reveal" data-src="assets/images/menu_avocado_toast.png">
+                        <img src="assets/images/menu_avocado_toast.png" alt="Smashed Avocado Toast" class="gallery-img">
+                    </div>
+
+                    <!-- Gallery Item 11 (Rich Espresso Shot) -->
+                    <div class="gallery-item scroll-reveal" data-src="assets/images/menu_espresso.png">
+                        <img src="assets/images/menu_espresso.png" alt="Rich Espresso Shot" class="gallery-img">
+                    </div>
+
+                    <!-- Gallery Item 12 (Breakfast Croissant) -->
+                    <div class="gallery-item scroll-reveal" data-src="assets/images/menu_croissant.png">
+                        <img src="assets/images/menu_croissant.png" alt="Warm Flaky Breakfast Croissant"
+                            class="gallery-img">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Visit Section -->
+        <section class="visit-section" id="visit">
+            <div class="visit-container">
+                <div class="visit-header scroll-reveal">
+                    <span class="visit-label">VISIT</span>
+                    <h2 class="visit-title">Visit Cafe Tesu</h2>
+                    <p class="visit-subtitle">We’d love to welcome you for slow mornings and cozy evenings</p>
+                </div>
+
+                <div class="visit-grid">
+                    <!-- Left Side: Image -->
+                    <div class="visit-image-container scroll-reveal delay-1">
+                        <img src="assets/images/visit_image.png" alt="Cafe Tesu Interior" class="visit-image">
+                    </div>
+
+                    <!-- Right Side: Info Card -->
+                    <div class="visit-card scroll-reveal delay-2">
+                        <h3 class="visit-card-heading">VISIT US</h3>
+                        <div class="visit-info-list">
+                            <!-- Address -->
+                            <div class="visit-info-item">
+                                <div class="visit-icon-wrapper">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                                        <circle cx="12" cy="10" r="3"></circle>
+                                    </svg>
+                                </div>
+                                <div class="visit-info-text">
+                                    <span class="visit-info-title">Address</span>
+                                    <span class="visit-info-value">12, Hazratganj Marg, Hazratganj, Lucknow, Uttar
+                                        Pradesh 226001</span>
+                                </div>
+                            </div>
+
+                            <!-- Opening Hours -->
+                            <div class="visit-info-item">
+                                <div class="visit-icon-wrapper">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <circle cx="12" cy="12" r="10"></circle>
+                                        <polyline points="12 6 12 12 16 14"></polyline>
+                                    </svg>
+                                </div>
+                                <div class="visit-info-text">
+                                    <span class="visit-info-title">Opening Hours</span>
+                                    <span class="visit-info-value">9:00 AM – 11:00 PM Daily</span>
+                                </div>
+                            </div>
+
+                            <!-- Phone Number -->
+                            <div class="visit-info-item">
+                                <div class="visit-icon-wrapper">
+                                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                        stroke-linecap="round" stroke-linejoin="round">
+                                        <path
+                                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <div class="visit-info-text">
+                                    <span class="visit-info-title">Phone Number</span>
+                                    <span class="visit-info-value">
+                                        <a href="tel:+915224001234">+91 522 400 1234</a>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Lightbox Modal -->
+        <div id="gallery-lightbox" class="lightbox-modal" aria-hidden="true" role="dialog">
+            <button class="lightbox-close" aria-label="Close Lightbox" id="lightbox-close-btn">&times;</button>
+            <div class="lightbox-content-wrapper">
+                <img id="lightbox-img" class="lightbox-img" src="" alt="Zoomed Cafe Moment">
+                <div id="lightbox-caption" class="lightbox-caption"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Section -->
+    <footer class="footer-section">
+        <div class="footer-container">
+            <div class="footer-main">
+                <!-- Left: Branding & Tagline -->
+                <div class="footer-col brand-col">
+                    <a href="#" class="footer-logo">Cafe Tesu</a>
+                    <p class="footer-tagline">A space for slow mornings and meaningful moments</p>
+                </div>
+
+                <!-- Center: Navigation Links -->
+                <div class="footer-col nav-col">
+                    <ul class="footer-nav-list">
+                        <li><a href="#experience" class="footer-nav-link">Experience</a></li>
+                        <li><a href="#menu" class="footer-nav-link">Menu</a></li>
+                        <li><a href="#gallery" class="footer-nav-link">Gallery</a></li>
+                        <li><a href="#visit" class="footer-nav-link">Visit</a></li>
+                    </ul>
+                </div>
+
+                <!-- Right: Social Icons -->
+                <div class="footer-col social-col">
+                    <div class="footer-socials">
+                        <a href="https://instagram.com" class="social-link" aria-label="Instagram" target="_blank"
+                            rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
+                                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
+                            </svg>
+                        </a>
+                        <a href="https://facebook.com" class="social-link" aria-label="Facebook" target="_blank"
+                            rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                            </svg>
+                        </a>
+                        <a href="https://twitter.com" class="social-link" aria-label="Twitter" target="_blank"
+                            rel="noopener noreferrer">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                                stroke-linecap="round" stroke-linejoin="round">
+                                <path
+                                    d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z">
+                                </path>
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer Bottom -->
+            <div class="footer-bottom">
+                <p class="footer-copyright">© 2026 Cafe Tesu — Designed by Ruya</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Popup / Modal for demo actions -->
+    <div class="toast-notification" id="demo-toast" role="alert" aria-live="polite">
+        <div class="toast-content">
+            <span class="toast-message">Feature coming soon in Phase 2!</span>
+            <button class="toast-close" id="toast-close-btn">&times;</button>
+        </div>
+    </div>
+
+    <!-- Mobile Sticky CTA (Bottom) -->
+    <div class="mobile-sticky-cta" id="mobile-sticky-cta">
+        <a href="#book" class="btn btn-primary btn-book-table">Book Table</a>
+    </div>
+
+    <!-- Book Table Modal -->
+    <div id="booking-modal" class="booking-modal" aria-hidden="true" role="dialog">
+        <div class="booking-modal-overlay" id="booking-modal-overlay"></div>
+        <div class="booking-modal-content">
+            <button class="booking-close" aria-label="Close Booking Modal" id="booking-close-btn">&times;</button>
+            <div class="booking-header">
+                <h2 class="booking-title">Reserve Your Table</h2>
+            </div>
+            <form id="booking-form" class="booking-form">
+                <div class="form-group">
+                    <label for="booking-name">Name</label>
+                    <input type="text" id="booking-name" required placeholder="Your Name">
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="booking-date">Date</label>
+                        <input type="date" id="booking-date" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="booking-time">Time</label>
+                        <input type="time" id="booking-time" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="booking-guests">Number of Guests</label>
+                    <select id="booking-guests" required>
+                        <option value="" disabled selected>Select guests</option>
+                        <option value="1">1 Person</option>
+                        <option value="2">2 People</option>
+                        <option value="3">3 People</option>
+                        <option value="4">4 People</option>
+                        <option value="5">5+ People</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn btn-primary btn-book-table booking-submit">Confirm Booking</button>
+            </form>
+            <div id="booking-success" class="booking-success hidden">
+                <p>👉 Your table has been reserved ✨</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript Bundle -->
+    <script src="main.js?v=1.1"></script>
+</body>
+
+</html>
